@@ -10,13 +10,15 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
-  background: #333;
+  /* Match the hero section gradient */
+  background: linear-gradient(120deg, #0072ff, #00c6ff);
   transition: background 0.3s, box-shadow 0.3s;
   z-index: 1000;
 }
 
 .navbar.scrolled {
-  background: #222;
+  /* Slightly darker gradient for scrolled state */
+  background: linear-gradient(120deg, #005bb5, #0099cc);
   box-shadow: 0 2px 8px rgba(0,0,0,0.2);
 }
 
